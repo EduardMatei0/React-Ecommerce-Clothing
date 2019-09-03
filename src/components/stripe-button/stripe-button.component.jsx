@@ -7,13 +7,13 @@ const StripeCheckoutButton = ({ price }) => {
 
   const onToken = token => {
     console.log(token);
-    alert("Payment Successful");
+    alert("Payment Succesful!");
   };
 
   return (
     <StripeCheckout
       label="Pay Now"
-      name="Crown Clothing"
+      name="CRWN Clothing Ltd."
       billingAddress
       shippingAddress
       image="https://svgshare.com/i/CUz.svg"
